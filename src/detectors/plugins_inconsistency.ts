@@ -1,4 +1,4 @@
-import { BotKind, BrowserEngineKind, BrowserKind, ComponentDict, DetectorResponse, State } from '../types'
+import { BrowserEngineKind, BrowserKind, ComponentDict, DetectorResponse, State } from '../types'
 
 export function detectPluginsLengthInconsistency({
   pluginsLength,

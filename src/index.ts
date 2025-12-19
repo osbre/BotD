@@ -1,4 +1,3 @@
-import { version } from '../package.json'
 import BotDetector from './detector'
 import { sources, WindowSizePayload, ProcessPayload, DistinctivePropertiesPayload } from './sources'
 import { detectors } from './detectors'
