@@ -1,3 +1,10 @@
+## Why fork?
+
+- [Telemetry feature removed](https://github.com/osbre/BotD2/commit/2f3c0b2f6fcf34480133600bb7207fd5930c393b)
+- [Plugins length check removed](https://github.com/osbre/BotD2/commit/ed4368760e2b4f1a84a237d1525302325348b7d0)
+
+--
+
 <p align="center">
   <a href="https://fingerprint.com">
     <picture>
@@ -8,8 +15,8 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://www.npmjs.com/package/@fingerprintjs/botd">
-    <img src="https://img.shields.io/npm/v/@fingerprintjs/botd.svg" alt="Current NPM version">
+  <a href="https://www.npmjs.com/package/@osbre/botd">
+    <img src="https://img.shields.io/npm/v/@osbre/botd.svg" alt="Current NPM version">
   </a>
    <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/:license-mit-blue.svg?style=flat"/>
@@ -57,13 +64,13 @@ For more demanding applications we created a professional API-based bot detectio
 ### NPM
 
 ```bash
-npm i @fingerprintjs/botd
+npm i @osbre/botd
 # or
-yarn add @fingerprintjs/botd
+yarn add @osbre/botd
 ```
 
 ```js
-import { load } from '@fingerprintjs/botd'
+import { load } from '@osbre/botd'
 
 // Initialize an agent at application startup, once per page/app.
 const botdPromise = load()

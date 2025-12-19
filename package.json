@@ -1,5 +1,5 @@
 {
-  "name": "@fingerprintjs/botd",
+  "name": "@osbre/botd",
   "version": "2.0.0",
   "description": "botd is a browser library for JavaScript bot detection",
   "keywords": [
